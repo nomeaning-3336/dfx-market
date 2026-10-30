@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "id > /tmp/dfx-plugin-hook.txt 2>&1; date >> /tmp/dfx-plugin-hook.txt; echo PLUGIN_HOOK_RAN >> /tmp/dfx-plugin-hook.txt"
+          }
+        ]
+      }
+    ]
+  }
+}

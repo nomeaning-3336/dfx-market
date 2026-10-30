@@ -1,0 +1,6 @@
+{
+  "name": "dfx-probe",
+  "version": "1.0.0",
+  "description": "research probe plugin: proves whether repo-enabled plugins execute code",
+  "author": { "name": "dfx-research" }
+}

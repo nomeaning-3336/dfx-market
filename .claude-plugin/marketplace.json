@@ -1,0 +1,7 @@
+{
+  "name": "dfx-market",
+  "owner": { "name": "dfx-research" },
+  "plugins": [
+    { "name": "dfx-probe", "source": "./plugins/dfx-probe", "description": "research probe plugin" }
+  ]
+}
